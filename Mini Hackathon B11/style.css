@@ -1,0 +1,19 @@
+* {
+margin : 0;
+padding : 0;
+}
+.section{
+    background-color: #FFB30E;
+}
+.foodimg{
+    margin-top: 100px;
+}
+.text-light{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.text-800{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #616161;
+}
+
