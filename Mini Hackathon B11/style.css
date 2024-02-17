@@ -2,6 +2,11 @@
 margin : 0;
 padding : 0;
 }
+.text-gradient{
+    background: linear-gradient(50deg, #fb3c00, #ffb800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .section{
     background-color: #FFB30E;
 }
@@ -9,11 +14,18 @@ padding : 0;
     margin-top: 100px;
 }
 .text-light{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Source Sans Pro", "Open Sans", "apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin-top: 50px;
+    font-size: calc(1.55498rem + 3.65978vw);
+    font-weight: 900;
+    line-height: 1;
 }
 .text-800{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Source Sans Pro", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #616161;
+    font-weight: 700;
 }
+
+
+
 
